@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3rd Semester | Management | CU</title>
+  <link rel="shortcut icon"
+    href="https://cdn3d.iconscout.com/3d/premium/thumb/date-3-3d-icon-download-in-png-blend-fbx-gltf-file-formats--calendar-three-and-time-pack-user-interface-icons-4855086.png?f=webp"
+    type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brightRose: '#fecdd3',
+            lightRose: '#7c7070',
+            hardRose: '#545454',
+            hclOne: '#99e7de',
+            hclTwo: '#afeefe',
+            hclThree: '#b4eeb4',
+            hclFour: '#F1E9aa',
+            hclFive: '#ddebd8',
+
+          },
+          fontFamily: {
+            josefin: ['Josefin Sans', 'serif']
+          },
+          backgroundImage: {
+            pcBg: "url('./img/pc.jpg')",
+            smBg: "url('./img/phn.jpg')",
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <main id="home"
+    class="w-full bg-smBg lg:bg-pcBg bg-no-repeat bg-fixed bg-center bg-cover font-josefin text-brightRose">
+    <div class="w-full sticky -top-1 z-[2]">
+      <header id="header" class="container relative z-[2] w-full flex justify-center mx-auto">
+
+      </header>
+    </div>
+
+    <section class="w-full h-fit pt-4 md:pt-8 lg:pt-12">
+
+      <div class="container pt-16 max-w-[1080px] mx-auto text-center">
+
+
+
+        <div id="about" class="w-full py-8">
+          
+        </div>
+
+        <!-- 
+        
+        ---- next semester link ----
+        
+        -->
+        <div class="py-4 lg:pt-8 hidden">
+
+          <a href="https://khbmh.github.io/mgt4th" target="_blank">
+            <button
+              class="space-x-1 text-brightRose bg-lightRose py-3 px-6 rounded-full cursor-pointer border-b border-r border-clFour hover:opacity-[.8]">
+              <i class="ri-sparkling-2-line rounded-full text-clFour animate-pulse p-1"></i>
+
+              <i class="ri-links-line rounded-full border-[1px] border-hardRose text-brightRose p-1"></i>
+              <span class="font-black text-lg text-clTwo px-1 animate-pulse">Here is MGT4th</span>
+              <i class="ri-share-box-line rounded-full bg-hardRose text-brightRose p-1"></i>
+
+              <i class="ri-sparkling-2-line rounded-full text-clFour animate-pulse p-1"></i>
+            </button>
+          </a>
+        </div>
+
+        <div class="overflow-auto flex items-center justify-center pt-8">
+          <table class="table">
+            <!-- head -->
+            <thead>
+              <tr>
+                <th></th>
+                <th>Exam</th>
+                <th>Date</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- row 1 -->
+              <tr>
+                <th>1</th>
+                <td>Business Finance</td>
+                <td>-_-</td>
+              </tr>
+              <!-- row 2 -->
+              <tr>
+                <th>2</th>
+                <td>Human Resource Management</td>
+                <td>-_-</td>
+              </tr>
+              <!-- row 3 -->
+              <tr>
+                <th>3</th>
+                <td>Principles of Banking</td>
+                <td>-_-</td>
+              </tr>
+              <tr>
+                <th>4</th>
+                <td>MacroEconomics</td>
+                <td>-_-</td>
+              </tr>
+              <tr>
+                <th>5</th>
+                <td>Taxation</td>
+                <td>-_-</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <!-- 
+    ---- course container ----
+    -->
+    <div id="course-container">
+    </div>
+
+    <footer id="footer" class="w-full text-center">
+    </footer>
+  </main>
+
+  <script src="./js/index.js"></script>
+</body>
+
+</html
