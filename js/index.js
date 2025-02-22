@@ -220,7 +220,7 @@ about.innerHTML = `
 
 const footer = document.getElementById('footer');
 footer.innerHTML = `<hr class="border-lightRose">
-      <a href="https://khbmh.github.io/mahi" target="_blank">
+      <a href="https://mahi-here.netlify.app" target="_blank">
         <button
           class="space-x-1 hover:opacity-[.8] bg-lightRose py-2 px-4 my-6 rounded-full border-b border-brightRose cursor-pointer">
           <span class="font-black text-lg text-hclThree py-4 pl-1">Made by<i
